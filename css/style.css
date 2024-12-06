@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* header */
+.container{
+    max-width: 839px ;
+    margin:0px auto ;
+    padding: 15px;
+    
+}
+.header {
+    background: #6F439C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header__logo{}
+
+.header__svg{}
+
+.nav {
+    display: flex;
+    gap: 44px;
+}
+
+.nav__link {
+    padding: 8px 9px;
+    border-radius: 6px;
+    /* texto */
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+/* fin de header */
+
+
+
+
+/* ABOUT ME */
+.main{}
+.about{
+    padding: 20px 30px;
+}
+.button{
+    /* contenedor */
+    padding: 10px;
+    border-radius: 15px;
+    background: #81007F;
+     /*texto  */
+     width:fit-content ;
+     font-weight: 700;
+     color: #FFF;
+     text-decoration: none;
+
+}
+.about__content{
+    display: flex;
+    gap: 36px;
+}
+.about__info{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;  
+}
+.about__subtittle{
+    color: #121212;
+    font-size: 16px;
+    font-weight: 400;
+}
+.about__tittle{
+    color: #0E0D0D;
+    font-size: 32px;  
+    font-weight: 400;
+}
+.about__text{
+    color: #121212;
+    font-size: 20px;
+    font-weight: 400;
+}
+.about__figure{
+    max-width: 488px;
+    max-height: 489px;
+    border-radius: 589px;
+}
+.about__img{
+    width: 400px;
+    height: 450px; 
+    border-radius: 589px;
+}
+
+
+
+
+/* LA EMPRESA */
+.main{}
+.about{
+    padding: 20px 30px;
+}
+.button{
+    /* contenedor */
+    padding: 10px;
+    border-radius: 15px;
+    background: #81007F;
+     /*texto  */
+     width:fit-content ;
+     font-weight: 700;
+     color: #FFF;
+     text-decoration: none;
+
+}
+.empresa__content{
+    display: flex;
+    gap: 36px;
+}
+.empresa__info{
+    display: flex;
+    flex-direction: column;
+    gap: 54px;  
+}
+.empresa__subtittle{
+    color: #121212;
+    font-size: 16px;
+    font-weight: 400;
+}
+.empresa__tittle{
+    color: #0E0D0D;
+    font-size: 32px;  
+    font-weight: 500;
+}
+.empresa__text{
+    color: #121212;
+    font-size: 20px;
+    font-weight: 400;
+}
+.empresa__figure{
+    width: 1500px;
+    height: 394px; 
+}
+.empresa__img{
+    width: 100%
+}
+
+
+/* IMAGENES INTERACTIVAS */
+/* imagnes interractivas */
+body{
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-wrapper{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+}
+.swiper{
+    width: 600px;
+    height: 850px;
+    padding: 100px 0;
+    margin: 10px;
+}
+
+.swiper-slide{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media(max-width:991px){
+    boby{
+        padding: 0 100px;
+    }
+}
+
+
+
+
+
+/* PRODUCTOS Y SERVICIOS */
+.products{}
+.product__tittle{
+    background-color: #76E1D1;
+    color: #0E0D0D;
+    text-align: center;
+    font-weight: 500;
+    font-size: 48px;
+}
+.product__texts{
+    background-color: #BDE4DF;
+    padding: 15px;
+}
+.product__text{}
+.text__tittle{
+    color: #0E0D0D;
+    font-weight: 500;
+    font-size: 30px;
+}
+.text__paragrah{
+    color: #0E0D0D;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+/* CONTACTANOS */
+.contact__tittle{
+    text-align: center;
+    background-color: #6F439C;
+    font-weight: 500;
+    font-size: 48px;
+}
+.information{
+    background-color: #A081BD;
+    padding: 10px 15px;
+}
+.information__name{
+    font-weight: 500;
+    font-size: 16px;
+}
+.input__name{
+    width: 800px;
+    height: 40px;
+}
+
+
+.information__lastname{
+    font-weight: 500;
+    font-size: 16px;
+}
+.input__lastname{
+    width: 800px;
+    height: 40px;
+}
+
+
+.information__email{
+    font-weight: 500;
+    font-size: 16px;
+}
+.input__email{
+    width: 800px;
+    height: 40px;
+}
+
+
+.information__number{
+    font-weight: 500;
+    font-size: 16px;
+}
+.input__number{
+    width: 800px;
+    height: 40px;
+}
+
+.botton{
+  display: flex;
+  gap: 22px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  
+    
+}
+.button__submit{
+    border-radius: 20px;
+    background: #81007F;
+    padding: 20px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
